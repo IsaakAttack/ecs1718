@@ -1,0 +1,111 @@
+body {
+  background-image: url('http://thewallpaper.co/wp-content/uploads/2016/06/beauty-nature-reflections-wallpaper-hd-images-kdvnbt-desktop-images-amazing-monitor-1920x1080.jpg');
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   font-size: 20px;
+}
+
+.navbar li { color: #000 }
+
+    .navbar .navbar-nav > li > a {
+       color: white; /*Change active text color here*/
+}
+
+.div-container-fluid {
+    text-align: center;
+}
+
+body {
+  font-size: 75%;
+  font-style: normal;
+}
+
+.animation-box {
+  width: 75%;
+  height: 27.5rem;
+  background-color: transparent;
+  border-color: transparent;
+  background: transparent;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 300rem;
+}
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 25%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+.first-text {
+  font-size: 4.4rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 5rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-duration: 5s;
+  color: white;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: transparent;
+   background: transparent;
+   border-color: white;
+   border-top: 4px;
+   color: white;
+   text-align: center;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+          
+          
