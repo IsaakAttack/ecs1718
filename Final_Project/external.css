@@ -169,5 +169,14 @@ body {
     font-family: 'Open-sans', sans-serif;
     color: white;
 }
+
+table, th, td  {
+            border:2px solid white;
+            font-family:Arial;
+            text-align:center;
+            font-size:18px;
+            color: White;
+            }
+            
           
           
